@@ -1,0 +1,21 @@
+@font-face {font-family: "if";
+  src: url('if.eot?t=1613807573787'); /* IE9*/
+  src: url('if.eot?t=1613807573787#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("if.woff2?t=1613807573787") format("woff2"),
+  url("if.woff?t=1613807573787") format("woff"),
+  url('if.ttf?t=1613807573787') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('if.svg?t=1613807573787#if') format('svg'); /* iOS 4.1- */
+}
+
+[class^="if-"], [class*=" if-"] {
+  font-family: 'if' !important;
+  font-size: 16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.if-logo:before { content: "\ea01"; }
+
+$if-logo: "\ea01";
+
