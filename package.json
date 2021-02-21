@@ -19,9 +19,11 @@
   "dependencies": {
     "@loadable/component": "^5.14.1",
     "axios": "^0.21.1",
+    "clsx": "^1.1.1",
     "dayjs": "^1.10.4",
     "lodash": "^4.17.20",
     "prop-types": "^15.7.2",
+    "rc-switch": "^3.2.2",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
     "react-router-config": "^5.1.1",
