@@ -1,10 +1,10 @@
 module.exports = {
+  moduleDirectories: ['node_modules'],
   moduleFileExtensions: ['js', 'jsx', 'ts', 'tsx', 'json'],
   transform: {
-    '^.+\\.(js|jsx)?$': 'babel-jest',
+    '^.+\\.(js|jsx)?$': 'esbuild-jest',
   },
   testMatch: ['<rootDir>/tests/**/*.js'],
   testEnvironment: 'node',
-  // testEnvironment: 'jest-environment-node',
-  transformIgnorePatterns: ['<rootDir>/node_modules/'],
+  transformIgnorePatterns: ['/node_modules/'],
 };
