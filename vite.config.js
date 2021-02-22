@@ -13,6 +13,9 @@ const resolve = dir => path.join(__dirname, dir);
  * @type { import('vite').UserConfig }
  */
 export default {
+  build: {
+    manifest: true,
+  },
   server: {
     port: 8005,
     https: {
@@ -36,6 +39,7 @@ export default {
       stores: resolve('src/stores'),
       pages: resolve('src/pages'),
     },
+    extensions: ['.js', '.jsx', '.json'],
   },
   define: {
     BASE_URL: JSON.stringify(env[ENV_TARGET]),
