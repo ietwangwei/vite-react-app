@@ -32,6 +32,7 @@ export default {
     reactRefresh(),
     eslintPlugin({
       include: 'src/**/*.+(js|jsx)',
+      fix: true,
     }),
   ],
   base: TARGET === 'github' ? '/vite-react-app' : '/',

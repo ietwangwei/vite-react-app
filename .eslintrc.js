@@ -5,28 +5,32 @@ module.exports = {
     node: true,
     'jest/globals': true,
   },
-  extends: [
-    'eslint:recommended',
-    'plugin:react/recommended',
-    'plugin:jest/recommended',
-  ],
+  extends: ['eslint:recommended', 'plugin:react/recommended'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
     },
     sourceType: 'module',
-    ecmaVersion: 12,
+    ecmaVersion: 2020,
   },
+  // parser: '@babel/eslint-parser',
   settings: {
+    'import/resolver': {},
+    react: {
+      pragma: 'React',
+      fragment: 'Fragment',
+      version: 'detect',
+      flowVersion: '0.53',
+    },
     jest: {
       version: 26,
     },
   },
   plugins: ['react', 'import', 'simple-import-sort', 'jest'],
   rules: {
-    // base 
+    // base
     'no-console': 2,
-    
+
     // simple-import-sort
     'simple-import-sort/imports': [
       'error',
@@ -63,6 +67,10 @@ module.exports = {
     'jest/no-identical-title': 'error',
     'jest/prefer-to-have-length': 'warn',
     'jest/valid-expect': 'error',
+
+    // react
+    'react/jsx-uses-react': 'error',
+    'react/jsx-uses-vars': 'error',
   },
   globals: {
     BASE_URL: true,
