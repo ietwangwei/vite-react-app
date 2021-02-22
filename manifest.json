@@ -1,0 +1,39 @@
+{
+  "index.html": {
+    "file": "assets/index.39cc43a7.js",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_vendor.3bdfe8f9.js"
+    ],
+    "dynamicImports": [
+      "src/pages/Page1/index.jsx",
+      "src/pages/Page2/index.jsx"
+    ],
+    "css": [
+      "assets/index.bdb835b9.css"
+    ],
+    "assets": [
+      "assets/if.8958a032.svg"
+    ]
+  },
+  "_vendor.3bdfe8f9.js": {
+    "file": "assets/vendor.3bdfe8f9.js"
+  },
+  "src/pages/Page1/index.jsx": {
+    "file": "assets/index.95f5eaad.js",
+    "src": "src/pages/Page1/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor.3bdfe8f9.js"
+    ]
+  },
+  "src/pages/Page2/index.jsx": {
+    "file": "assets/index.fb63bbf3.js",
+    "src": "src/pages/Page2/index.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor.3bdfe8f9.js"
+    ]
+  }
+}
