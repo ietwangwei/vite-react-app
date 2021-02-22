@@ -18,7 +18,7 @@ export default {
     manifest: true,
   },
   server: {
-    port: 8005,
+    port: 8000,
     https: {
       ServerOptions: {
         ca: fs.readFileSync(resolve('config/rootCA.pem')),

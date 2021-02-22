@@ -31,13 +31,11 @@
   },
   "devDependencies": {
     "@babel/core": "^7.12.17",
-    "@babel/eslint-parser": "^7.12.17",
     "@babel/plugin-transform-runtime": "^7.12.17",
     "@babel/preset-env": "^7.12.17",
     "@babel/preset-react": "^7.12.13",
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
-    "@rollup/plugin-babel": "^5.3.0",
     "@vitejs/plugin-react-refresh": "^1.1.0",
     "autoprefixer": "^10.2.4",
     "babel-plugin-bundled-import-meta": "^0.3.2",
@@ -62,7 +60,6 @@
     "stylelint-order": "^4.1.0",
     "svgtofont": "^3.8.2",
     "vite": "^2.0.1",
-    "vite-babel-plugin": "0.0.2",
     "vite-plugin-eslint": "^1.0.5"
   },
   "husky": {
