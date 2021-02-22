@@ -2,7 +2,7 @@
   "name": "vite-react-app",
   "version": "0.0.8",
   "scripts": {
-    "dev": "cross-env ENV_TARGET=development vite --port=8000",
+    "dev": "cross-env ENV_TARGET=development vite",
     "build": "cross-env vite build",
     "publish": "cross-env TARGET=github vite build",
     "build:qa": "cross-env ENV_TARGET=qa vite build",
