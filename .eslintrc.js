@@ -24,6 +24,9 @@ module.exports = {
   },
   plugins: ['react', 'import', 'simple-import-sort', 'jest'],
   rules: {
+    // base 
+    'no-console': 2,
+    
     // simple-import-sort
     'simple-import-sort/imports': [
       'error',

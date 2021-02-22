@@ -1,6 +1,7 @@
 import reactRefresh from '@vitejs/plugin-react-refresh';
 import fs from 'fs';
 import path from 'path';
+import eslintPlugin from 'vite-plugin-eslint';
 
 import env from './env';
 
@@ -27,7 +28,12 @@ export default {
     },
   },
 
-  plugins: [reactRefresh()],
+  plugins: [
+    reactRefresh(),
+    eslintPlugin({
+      include: 'src/**/*.+(js|jsx)',
+    }),
+  ],
   base: TARGET === 'github' ? '/vite-react-app' : '/',
   resolve: {
     alias: {
