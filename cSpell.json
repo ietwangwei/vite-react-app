@@ -11,6 +11,7 @@
     "styl",
     "commitlint",
     "vendored",
-    "esbuild"
+    "esbuild",
+    "clsx"
   ]
 }

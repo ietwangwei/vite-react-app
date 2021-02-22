@@ -1,6 +1,6 @@
 {
   "name": "vite-react-app",
-  "version": "0.0.8",
+  "version": "0.9.0",
   "scripts": {
     "dev": "cross-env ENV_TARGET=development vite",
     "build": "cross-env vite build",
@@ -19,6 +19,7 @@
   "dependencies": {
     "@loadable/component": "^5.14.1",
     "axios": "^0.21.1",
+    "clsx": "^1.1.1",
     "dayjs": "^1.10.4",
     "lodash": "^4.17.20",
     "prop-types": "^15.7.2",
