@@ -1,5 +1,6 @@
 import reactRefresh from '@vitejs/plugin-react-refresh';
-import fs from 'fs';
+// TODO: support http2
+// import fs from 'fs';
 import path from 'path';
 import eslintPlugin from 'vite-plugin-eslint';
 
@@ -19,13 +20,13 @@ export default {
   },
   server: {
     port: 8000,
-    https: {
-      ServerOptions: {
-        ca: fs.readFileSync(resolve('config/rootCA.pem')),
-        key: fs.readFileSync(resolve('config/privatekey.pem')),
-        cert: fs.readFileSync(resolve('config/certificate.pem')),
-      },
-    },
+    // https: {
+    //   ServerOptions: {
+    //     ca: fs.readFileSync(resolve('config/rootCA.pem')),
+    //     key: fs.readFileSync(resolve('config/privatekey.pem')),
+    //     cert: fs.readFileSync(resolve('config/certificate.pem')),
+    //   },
+    // },
   },
 
   plugins: [

@@ -1,6 +1,7 @@
 {
   "name": "vite-react-app",
   "version": "0.9.0",
+  "description": "A simple react application boilerplate",
   "scripts": {
     "dev": "cross-env ENV_TARGET=development vite",
     "build": "cross-env vite build",
@@ -16,6 +17,12 @@
     "preview:icon": "npm run build:icon && npx serve ./src/assets/fonts",
     "stylelint": "stylelint **/*.{css,scss,less,styl} --fix"
   },
+  "homepage": "https://qinghuanI.github.io/vite-react-app/",
+  "keywords": [
+    "vite",
+    "react"
+  ],
+  "author": "qinghuanI",
   "dependencies": {
     "@loadable/component": "^5.14.1",
     "axios": "^0.21.1",
@@ -61,6 +68,9 @@
     "svgtofont": "^3.8.2",
     "vite": "^2.0.1",
     "vite-plugin-eslint": "^1.0.5"
+  },
+  "engines": {
+    "node": ">= 12.x"
   },
   "husky": {
     "hooks": {

@@ -2,16 +2,17 @@
   "version": "0.1",
   "language": "en",
   "words": [
-    "vite",
     "arrowParens",
-    "corejs",
-    "svgtofont",
-    "stylelint",
-    "vitejs",
-    "styl",
+    "clsx",
     "commitlint",
-    "vendored",
+    "corejs",
     "esbuild",
-    "clsx"
+    "qinghuanI",
+    "styl",
+    "stylelint",
+    "svgtofont",
+    "vendored",
+    "vite",
+    "vitejs"
   ]
 }
