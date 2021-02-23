@@ -1,20 +1,18 @@
 import React from 'react';
-import { renderRoutes } from 'react-router-config';
-import { withRouter } from 'react-router-dom';
-import PropTypes from 'prop-types';
 
-const MainLayout = ({ route }) => {
+import Locales from './Locales';
+import Welcome from './Welcome';
+
+import './index.scss';
+
+const MainLayout = () => {
   return (
-    <div>
-      this is MainLayout component
+    <div className="main-layout">
       <i className="if if-logo"></i>
-      {renderRoutes(route.routes)}
+      <Locales />
+      <Welcome />
     </div>
   );
 };
 
-MainLayout.propTypes = {
-  route: PropTypes.object,
-};
-
-export default withRouter(MainLayout);
+export default MainLayout;

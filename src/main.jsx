@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import './initLocale';
+
 import App from './App';
 
 import 'styles/main.scss';
 import './assets/fonts/if.scss';
-
 ReactDOM.render(
   <React.StrictMode>
     <App />

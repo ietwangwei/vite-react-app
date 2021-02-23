@@ -28,10 +28,13 @@
     "axios": "^0.21.1",
     "clsx": "^1.1.1",
     "dayjs": "^1.10.4",
+    "i18next": "^19.8.9",
+    "js-cookie": "^2.2.1",
     "lodash": "^4.17.20",
     "prop-types": "^15.7.2",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
+    "react-i18next": "^11.8.7",
     "react-router-config": "^5.1.1",
     "react-router-dom": "^5.2.0",
     "recoil": "^0.1.2"
