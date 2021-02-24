@@ -14,7 +14,7 @@ const resolve = dir => path.join(__dirname, dir);
  */
 export default {
   esbuild: {
-    jsxInject: `import React from 'react'`,
+    jsxInject: `import React from 'react';import T from 'i18next'`,
   },
   build: {
     manifest: true,

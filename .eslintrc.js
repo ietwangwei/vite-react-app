@@ -75,5 +75,6 @@ module.exports = {
   },
   globals: {
     BASE_URL: true,
+    T: true,
   },
 };
