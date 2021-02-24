@@ -1,3 +1,5 @@
+import React from 'react';
+
 import Locales from './Locales';
 import Welcome from './Welcome';
 

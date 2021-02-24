@@ -4,7 +4,10 @@ module.exports = {
   transform: {
     '^.+\\.(js|jsx)?$': 'esbuild-jest',
   },
-  testMatch: ['<rootDir>/tests/**/*.js'],
-  testEnvironment: 'node',
+  moduleNameMapper: {
+    '^.+\\.(css|scss)$': 'identity-obj-proxy',
+  },
+  testMatch: ['<rootDir>/tests/**/*.{js,jsx}'],
+  testEnvironment: 'jsdom',
   transformIgnorePatterns: ['/node_modules/'],
 };
