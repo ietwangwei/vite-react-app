@@ -13,6 +13,9 @@ const resolve = dir => path.join(__dirname, dir);
  * @type { import('vite').UserConfig }
  */
 export default {
+  esbuild: {
+    jsxInject: `import React from 'react'`,
+  },
   build: {
     manifest: true,
   },

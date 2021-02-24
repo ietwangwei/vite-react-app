@@ -30,6 +30,7 @@ module.exports = {
   rules: {
     // base
     'no-console': 2,
+    'react/react-in-jsx-scope': 0,
 
     // simple-import-sort
     'simple-import-sort/imports': [
