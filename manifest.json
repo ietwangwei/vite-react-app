@@ -1,6 +1,6 @@
 {
   "index.html": {
-    "file": "assets/index.c01114ef.js",
+    "file": "assets/index.ae2ed862.js",
     "src": "index.html",
     "isEntry": true,
     "imports": [
@@ -11,7 +11,7 @@
       "src/pages/Page2/index.jsx"
     ],
     "css": [
-      "assets/index.3d5edf6f.css"
+      "assets/index.fc5b3405.css"
     ],
     "assets": [
       "assets/if.8958a032.svg"
@@ -21,7 +21,7 @@
     "file": "assets/vendor.028150b0.js"
   },
   "src/pages/Page1/index.jsx": {
-    "file": "assets/index.47f60395.js",
+    "file": "assets/index.3ded949a.js",
     "src": "src/pages/Page1/index.jsx",
     "isDynamicEntry": true,
     "imports": [
@@ -30,7 +30,7 @@
     ]
   },
   "src/pages/Page2/index.jsx": {
-    "file": "assets/index.7bedc525.js",
+    "file": "assets/index.522dc72c.js",
     "src": "src/pages/Page2/index.jsx",
     "isDynamicEntry": true,
     "imports": [
