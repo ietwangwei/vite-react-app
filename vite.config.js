@@ -1,4 +1,5 @@
 import reactRefresh from '@vitejs/plugin-react-refresh';
+import fs from 'fs';
 import path from 'path';
 import eslintPlugin from 'vite-plugin-eslint';
 
@@ -29,6 +30,13 @@ export default {
     //     cert: fs.readFileSync(resolve('config/certificate.pem')),
     //   },
     // },
+  },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: fs.readFileSync('./src/styles/colors.scss'),
+      },
+    },
   },
 
   plugins: [
