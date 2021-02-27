@@ -1,12 +1,13 @@
 import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom';
 
-import './initLocale';
+import './initLocale.jsx';
 
-import App from './App';
+import App from './App.jsx';
 
 import 'styles/main.scss';
 import './assets/fonts/if.scss';
+
 ReactDOM.render(
   <StrictMode>
     <App />

@@ -6,12 +6,10 @@ import routes from 'routes/index';
 
 import 'styles/App.scss';
 
-const App = () => {
-  return (
-    <RecoilRoot>
-      <BrowserRouter>{renderRoutes(routes)}</BrowserRouter>
-    </RecoilRoot>
-  );
-};
+const App = () => (
+  <RecoilRoot>
+    <BrowserRouter>{renderRoutes(routes)}</BrowserRouter>
+  </RecoilRoot>
+);
 
 export default App;

@@ -11,6 +11,6 @@ svgtofont({
   website: {
     title: 'if',
     logo: '',
-    version: pkg.version,
-  },
+    version: pkg.version
+  }
 });

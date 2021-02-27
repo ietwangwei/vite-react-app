@@ -15,8 +15,8 @@ T.use(initReactI18next).init({
   lng: Cookies.get('lang') || getCurrentSystemLang(),
   keySeparator: false,
   interpolation: {
-    escapeValue: false,
-  },
+    escapeValue: false
+  }
 });
 
 // export default locales;

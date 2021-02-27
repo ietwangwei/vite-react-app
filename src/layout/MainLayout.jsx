@@ -5,14 +5,12 @@ import Welcome from './Welcome';
 
 import './index.scss';
 
-const MainLayout = () => {
-  return (
-    <div className="main-layout">
-      <i className="if if-logo"></i>
-      <Locales />
-      <Welcome />
-    </div>
-  );
-};
+const MainLayout = () => (
+  <div className="main-layout">
+    <i className="if if-logo" />
+    <Locales />
+    <Welcome />
+  </div>
+);
 
 export default MainLayout;

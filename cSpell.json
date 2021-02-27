@@ -13,6 +13,7 @@
     "svgtofont",
     "vendored",
     "vite",
-    "vitejs"
+    "vitejs",
+    "camelcase"
   ]
 }

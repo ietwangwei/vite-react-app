@@ -3,34 +3,39 @@ module.exports = {
   env: {
     browser: true,
     node: true,
-    'jest/globals': true,
+    'jest/globals': true
   },
-  extends: ['eslint:recommended', 'plugin:react/recommended'],
+  extends: ['airbnb', 'eslint:recommended', 'plugin:react/recommended'],
+  parser: '@babel/eslint-parser',
   parserOptions: {
+    parser: '@babel/eslint-parser',
     ecmaFeatures: {
-      jsx: true,
+      jsx: true
     },
     sourceType: 'module',
-    ecmaVersion: 2020,
+    ecmaVersion: 2020
   },
-  // parser: '@babel/eslint-parser',
+
   settings: {
     'import/resolver': {},
     react: {
       pragma: 'React',
       fragment: 'Fragment',
       version: 'detect',
-      flowVersion: '0.53',
+      flowVersion: '0.53'
     },
     jest: {
-      version: 26,
-    },
+      version: 26
+    }
   },
-  plugins: ['react', 'import', 'simple-import-sort', 'jest'],
+  plugins: ['react', 'import', 'simple-import-sort', 'jest', 'node'],
   rules: {
     // base
     'no-console': 2,
     'react/react-in-jsx-scope': 0,
+    camelcase: 0,
+    'arrow-parens': 0,
+    'comma-dangle': 0,
 
     // simple-import-sort
     'simple-import-sort/imports': [
@@ -48,9 +53,9 @@ module.exports = {
           // Other relative imports. Put same-folder imports and `.` last.
           ['^\\./(?=.*/)(?!/?$)', '^\\.(?!/?$)', '^\\./?$'],
           // Style imports.
-          ['^.+\\.s?css$'],
-        ],
-      },
+          ['^.+\\.s?css$']
+        ]
+      }
     ],
 
     'simple-import-sort/exports': 'error',
@@ -61,6 +66,8 @@ module.exports = {
     'import/namespace': 2,
     'import/default': 2,
     'import/export': 2,
+    'import/no-extraneous-dependencies': 0,
+    'import/extensions': 0,
 
     // jest
     'jest/no-disabled-tests': 'warn',
@@ -72,9 +79,25 @@ module.exports = {
     // react
     'react/jsx-uses-react': 'error',
     'react/jsx-uses-vars': 'error',
+
+    // jsx-a11y
+    'jsx-a11y/click-events-have-key-events': 0,
+    'jsx-a11y/no-static-element-interactions': 0,
+
+    // node
+    'node/exports-style': ['error', 'module.exports'],
+    'node/file-extension-in-import': ['error', 'always'],
+    'node/prefer-global/buffer': ['error', 'always'],
+    'node/prefer-global/console': ['error', 'always'],
+    'node/prefer-global/process': ['error', 'always'],
+    'node/prefer-global/url-search-params': ['error', 'always'],
+    'node/prefer-global/url': ['error', 'always'],
+    'node/prefer-promises/dns': 'error',
+    'node/prefer-promises/fs': 'error',
+    'global-require': 0
   },
   globals: {
     BASE_URL: true,
-    T: true,
-  },
+    T: true
+  }
 };

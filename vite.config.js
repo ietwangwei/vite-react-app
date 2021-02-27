@@ -3,7 +3,7 @@ import fs from 'fs';
 import path from 'path';
 import eslintPlugin from 'vite-plugin-eslint';
 
-import env from './env';
+import env from './env.js';
 
 const { ENV_TARGET, TARGET } = process.env;
 
@@ -15,13 +15,13 @@ const resolve = dir => path.join(__dirname, dir);
  */
 export default {
   esbuild: {
-    jsxInject: `import T from 'i18next'`,
+    jsxInject: "import T from 'i18next'"
   },
   build: {
-    manifest: true,
+    manifest: true
   },
   server: {
-    port: 8000,
+    port: 8000
     // TODO: support http2
     // https: {
     //   ServerOptions: {
@@ -34,17 +34,17 @@ export default {
   css: {
     preprocessorOptions: {
       scss: {
-        additionalData: fs.readFileSync('./src/styles/colors.scss'),
-      },
-    },
+        additionalData: fs.readFileSync('./src/styles/colors.scss')
+      }
+    }
   },
 
   plugins: [
     reactRefresh(),
     eslintPlugin({
       include: 'src/**/*.+(js|jsx)',
-      fix: true,
-    }),
+      fix: true
+    })
   ],
   base: TARGET === 'github' ? '/vite-react-app' : '/',
   resolve: {
@@ -57,12 +57,12 @@ export default {
       stores: resolve('src/stores'),
       pages: resolve('src/pages'),
       locales: resolve('src/locales'),
-      tests: resolve('tests'),
+      tests: resolve('tests')
     },
-    extensions: ['.js', '.jsx', '.json'],
+    extensions: ['.js', '.jsx', '.json']
   },
   define: {
-    BASE_URL: JSON.stringify(env[ENV_TARGET]),
+    BASE_URL: JSON.stringify(env[ENV_TARGET])
   },
-  proxy: {},
+  proxy: {}
 };

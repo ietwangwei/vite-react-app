@@ -2,9 +2,10 @@ import React from 'react';
 import Cookie from 'js-cookie';
 
 import './index.scss';
+
 const Locales = () => {
   const handleSwitchLang = event => {
-    const lang = event.target.dataset.lang;
+    const { lang } = event.target.dataset;
 
     Cookie.set('lang', lang, { path: '/' });
     window.location.reload();
