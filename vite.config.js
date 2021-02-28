@@ -3,7 +3,7 @@ import fs from 'fs';
 import path from 'path';
 import eslintPlugin from 'vite-plugin-eslint';
 
-import env from './env.js';
+import env from './env/index.js';
 
 const { ENV_TARGET, TARGET } = process.env;
 
