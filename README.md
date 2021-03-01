@@ -15,5 +15,6 @@ git clone https://github.com/qinghuanI/vite-react-app.git
 ```
 
 2. `npm i` to install npm packages.
-3. Start dev server using `npm run dev`.
-4. Build and bundling your resources for production `npm run build`.
+3. Convert svg picture to font icon with `npm run build:icon`.
+4. Start dev server using `npm run dev`.
+5. Build and bundling your resources for production `npm run build`.
