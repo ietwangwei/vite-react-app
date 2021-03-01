@@ -82,6 +82,7 @@ module.exports = {
     ],
     'property-no-vendor-prefix': null,
     'selector-max-compound-selectors': null,
-    'value-no-vendor-prefix': null
+    'value-no-vendor-prefix': null,
+    'at-rule-no-unknown': null
   }
 };

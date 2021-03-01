@@ -1,5 +1,5 @@
 import loadable from '@loadable/component';
-import MainLayout from 'layout/MainLayout';
+import MainLayout from 'layout/MainLayout.jsx';
 
 import { redirect } from './utils.jsx';
 

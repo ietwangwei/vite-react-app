@@ -1,0 +1,20 @@
+@charset 'utf-8';
+
+@mixin ellipsis($width: 100%, $display: inline-block) {
+  display: $display;
+  overflow: hidden;
+  max-width: $width;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+
+@mixin displayFlex(
+  $display: flex,
+  $alignItems: center,
+  $justifyContent: center
+) {
+  display: $display;
+  align-items: $alignItems;
+  justify-content: $justifyContent;
+}
