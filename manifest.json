@@ -1,6 +1,6 @@
 {
   "index.html": {
-    "file": "assets/index.ff658f1c.js",
+    "file": "assets/index.c090fc96.js",
     "src": "index.html",
     "isEntry": true,
     "imports": [
@@ -21,7 +21,7 @@
     "file": "assets/vendor.6f227250.js"
   },
   "src/pages/Page1/index.jsx": {
-    "file": "assets/index.63a3474c.js",
+    "file": "assets/index.ef162fac.js",
     "src": "src/pages/Page1/index.jsx",
     "isDynamicEntry": true,
     "imports": [
@@ -30,7 +30,7 @@
     ]
   },
   "src/pages/Page2/index.jsx": {
-    "file": "assets/index.75447f6f.js",
+    "file": "assets/index.6a81ed2b.js",
     "src": "src/pages/Page2/index.jsx",
     "isDynamicEntry": true,
     "imports": [
