@@ -37,7 +37,8 @@
     "react-i18next": "^11.8.7",
     "react-router-config": "^5.1.1",
     "react-router-dom": "^5.2.0",
-    "recoil": "^0.1.2"
+    "recoil": "^0.1.2",
+    "use-progress": "^2.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.17",
