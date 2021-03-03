@@ -11,3 +11,4 @@ All notable changes to this project will be documented in this file.
 - unit tests with jest.
 - code formatting tools,e.g. prettier、eslint and so on.
 - support multi-environment packaging.
+- support mock server in development mode

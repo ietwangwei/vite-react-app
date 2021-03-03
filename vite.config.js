@@ -63,7 +63,8 @@ export default {
       stores: resolve('src/stores'),
       pages: resolve('src/pages'),
       locales: resolve('src/locales'),
-      tests: resolve('tests')
+      tests: resolve('tests'),
+      hooks: resolve('hooks')
     },
     extensions: ['.js', '.jsx', '.json']
   },

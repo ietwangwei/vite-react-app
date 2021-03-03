@@ -15,7 +15,8 @@
       "utils/*": ["./src/utils/*"],
       "components/*": ["./src/components/*"],
       "assets/*": ["./src/assets/*"],
-      "locales/*": ["./src/locales/*"]
+      "locales/*": ["./src/locales/*"],
+      "hooks/*": ["./src/hooks/*"]
     }
   },
   "exclude": ["node_modules", "dist"]

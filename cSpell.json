@@ -3,18 +3,19 @@
   "language": "en",
   "words": [
     "arrowParens",
+    "camelcase",
     "clsx",
     "commitlint",
     "corejs",
     "esbuild",
+    "nprogress",
+    "pnpm",
     "qinghuanI",
     "styl",
     "stylelint",
     "svgtofont",
     "vendored",
     "vite",
-    "vitejs",
-    "camelcase",
-    "pnpm"
+    "vitejs"
   ]
 }
