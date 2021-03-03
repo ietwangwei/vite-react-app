@@ -1,10 +1,10 @@
 {
   "index.html": {
-    "file": "assets/index.0a0b2d61.js",
+    "file": "assets/index.5a75de15.js",
     "src": "index.html",
     "isEntry": true,
     "imports": [
-      "_vendor.fd3888ad.js"
+      "_vendor.09ac71c0.js"
     ],
     "dynamicImports": [
       "src/pages/Page1/index.jsx",
@@ -17,25 +17,25 @@
       "assets/if.8958a032.svg"
     ]
   },
-  "_vendor.fd3888ad.js": {
-    "file": "assets/vendor.fd3888ad.js"
+  "_vendor.09ac71c0.js": {
+    "file": "assets/vendor.09ac71c0.js"
   },
   "src/pages/Page1/index.jsx": {
-    "file": "assets/index.b52f5eed.js",
+    "file": "assets/index.a52a7d0f.js",
     "src": "src/pages/Page1/index.jsx",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_vendor.fd3888ad.js"
+      "_vendor.09ac71c0.js"
     ]
   },
   "src/pages/Page2/index.jsx": {
-    "file": "assets/index.fceb3900.js",
+    "file": "assets/index.ce6b4fe3.js",
     "src": "src/pages/Page2/index.jsx",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_vendor.fd3888ad.js"
+      "_vendor.09ac71c0.js"
     ]
   }
 }
