@@ -2,6 +2,7 @@ import reactRefresh from '@vitejs/plugin-react-refresh';
 import fs from 'fs';
 import path from 'path';
 import eslintPlugin from 'vite-plugin-eslint';
+import { viteMockServe } from 'vite-plugin-mock';
 
 import env from './env/index.js';
 
@@ -44,6 +45,11 @@ export default {
     eslintPlugin({
       include: 'src/**/*.+(js|jsx)',
       fix: true
+    }),
+    viteMockServe({
+      supportTs: false,
+      mockPath: 'mock',
+      prodEnabled: false
     })
   ],
   base: TARGET === 'github' ? '/vite-react-app' : '/',
