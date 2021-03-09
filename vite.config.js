@@ -22,15 +22,11 @@ export default {
     manifest: true
   },
   server: {
-    port: 8000
-    // TODO: support http2
-    // https: {
-    //   ServerOptions: {
-    //     ca: fs.readFileSync(resolve('config/rootCA.pem')),
-    //     key: fs.readFileSync(resolve('config/privatekey.pem')),
-    //     cert: fs.readFileSync(resolve('config/certificate.pem')),
-    //   },
-    // },
+    port: 8000,
+    https: {
+      key: fs.readFileSync(resolve('config/cert/localhost.key')),
+      cert: fs.readFileSync(resolve('config/cert/localhost.crt'))
+    }
   },
   css: {
     preprocessorOptions: {
