@@ -4,9 +4,7 @@ import path from 'path';
 import eslintPlugin from 'vite-plugin-eslint';
 import { viteMockServe } from 'vite-plugin-mock';
 
-import env from './env/index.js';
-
-const { ENV_TARGET, TARGET } = process.env;
+const { TARGET } = process.env;
 
 const resolve = dir => path.join(__dirname, dir);
 
@@ -64,8 +62,6 @@ export default {
     },
     extensions: ['.js', '.jsx', '.json']
   },
-  define: {
-    BASE_URL: JSON.stringify(env[ENV_TARGET])
-  },
+  define: {},
   proxy: {}
 };

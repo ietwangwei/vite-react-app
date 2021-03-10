@@ -98,7 +98,6 @@ module.exports = {
     'global-require': 0
   },
   globals: {
-    BASE_URL: true,
     T: true
   }
 };
