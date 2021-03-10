@@ -36,6 +36,7 @@ module.exports = {
     camelcase: 0,
     'arrow-parens': 0,
     'comma-dangle': 0,
+    'implicit-arrow-linebreak': 0,
 
     // simple-import-sort
     'simple-import-sort/imports': [
