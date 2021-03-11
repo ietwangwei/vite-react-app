@@ -5,6 +5,7 @@ import './initLocale.jsx';
 
 import App from './App.jsx';
 
+import 'antd/dist/antd.css';
 import 'styles/main.scss';
 import './assets/fonts/if.scss';
 
