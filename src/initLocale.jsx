@@ -1,9 +1,10 @@
 import { initReactI18next } from 'react-i18next';
+import { NAVIGATOR_DEFAULT_LANGUAGE } from 'constants/index.js';
 import Cookies from 'js-cookie';
 import resources from 'locales';
 
 const getCurrentSystemLang = () => {
-  if (navigator.language === 'zh') {
+  if (NAVIGATOR_DEFAULT_LANGUAGE.includes(navigator.language)) {
     return 'zh_CN';
   }
 

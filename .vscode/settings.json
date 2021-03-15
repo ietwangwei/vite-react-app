@@ -1,15 +1,16 @@
 {
   // window
-  "window.zoomLevel": 0.3,
+  "window.zoomLevel": 0,
 
   // editor UI
-  "editor.fontSize": 20,
+  "editor.fontSize": 22,
   "editor.tabSize": 2,
   "editor.formatOnType": true,
   "editor.fontWeight": "500",
   "editor.formatOnSave": true,
   "editor.suggestSelection": "first",
   "editor.wordWrap": "on",
+  "editor.fontFamily": "'Liberation Mono',Menlo, Monaco, 'Courier New', monospace",
 
   // "editor.wrappingColumn": 120,
   "editor.codeActionsOnSave": {

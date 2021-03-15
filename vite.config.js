@@ -49,6 +49,7 @@ export default {
   base: TARGET === 'github' ? '/vite-react-app' : '/',
   resolve: {
     alias: {
+      constants: resolve('src/constants'),
       components: resolve('src/components'),
       styles: resolve('src/styles'),
       layout: resolve('src/layout'),
