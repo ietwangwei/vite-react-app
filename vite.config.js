@@ -1,3 +1,4 @@
+import { inspectorServer } from 'react-dev-inspector/plugins/vite/index.js';
 import reactRefresh from '@vitejs/plugin-react-refresh';
 import fs from 'fs';
 import path from 'path';
@@ -44,7 +45,8 @@ export default {
       supportTs: false,
       mockPath: 'mock',
       prodEnabled: false
-    })
+    }),
+    inspectorServer()
   ],
   base: TARGET === 'github' ? '/vite-react-app' : '/',
   resolve: {
