@@ -1,6 +1,6 @@
 # <center>Vite + React + Recoil + React-Router</center>
 
-<div align="center">![avatar](https://vitejs.dev/logo.svg)</div>
+<div align=center><img src="https://vitejs.dev/logo.svg"/></div>
 
 A simple React Application boilerplate be created by vite.
 
