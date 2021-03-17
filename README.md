@@ -1,10 +1,36 @@
-# vite-react-app
+# <center>Vite + React + Recoil + React-Router</center>
+
+<div align="center">![avatar](https://vitejs.dev/logo.svg)</div>
 
 A simple React Application boilerplate be created by vite.
 
-# Online Preview
+# Features
 
-click [https://qinghuani.github.io/vite-react-app/](https://qinghuani.github.io/vite-react-app/)
+## Vite
+
+Next Generation Frontend Tooling
+
+## ESLint
+
+Find and fix problems in your JavaScript code
+
+## Stylelint
+
+A mighty, modern linter that helps you avoid errors and enforce conventions in your styles.
+
+## Cspell
+
+cspell is a command line tool and library for spell checking code.
+
+## react-dev-inspector
+
+This package allows users to jump to local IDE code directly from browser React component by just a simple click, which is similar to Chrome inspector but more advanced.detail see [react-dev-inspector](https://github.com/zthxxx/react-dev-inspector#readme)
+
+# Example Project Code
+
+code - [https://github.com/qinghuanI/vite-react-app.git](https://github.com/qinghuanI/vite-react-app.git)
+
+preview - [https://qinghuani.github.io/vite-react-app/](https://qinghuani.github.io/vite-react-app/)
 
 # How to use
 
