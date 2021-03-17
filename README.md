@@ -1,4 +1,4 @@
-# <center>Vite + React + Recoil + React-Router</center>
+# <p align=center>Vite + React + Recoil + React-Router</p>
 
 <div align=center><img src="https://vitejs.dev/logo.svg"/></div>
 
