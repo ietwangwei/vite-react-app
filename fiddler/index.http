@@ -1,0 +1,9 @@
+
+@base_url = https://localhost:8000
+
+GET {{base_url}}/api/getRoleById HTTP/1.1
+User-Agent: rest-client
+Accept-Language: en-GB,en-US;q=0.8,en;q=0.6,zh-CN;q=0.4
+Content-Type: application/json
+
+

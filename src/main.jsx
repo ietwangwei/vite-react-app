@@ -20,4 +20,4 @@ ReactDOM.render(
 );
 
 // eslint-disable-next-line no-console
-console.log(import.meta.env);
+// console.log(import.meta.env);

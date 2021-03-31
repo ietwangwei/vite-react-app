@@ -3,7 +3,7 @@ import { get, isNaN } from 'lodash';
 
 const instance = axios.create({
   baseURL: import.meta.env.VITE_BASE_URL,
-  timeout: 1000 * 10,
+  timeout: 1000 * 5,
   headers: { 'Content-Type': 'application/json' }
 });
 

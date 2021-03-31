@@ -6,7 +6,7 @@ export default [
       code: 0,
       message: 'ok',
       data: {
-        roleName: 'admin',
+        roleName: 'admin2',
         roleValue: 'admin'
       }
     })
