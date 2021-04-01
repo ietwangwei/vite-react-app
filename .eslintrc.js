@@ -80,6 +80,7 @@ module.exports = {
     // react
     'react/jsx-uses-react': 'error',
     'react/jsx-uses-vars': 'error',
+    'react/jsx-one-expression-per-line': 0,
 
     // jsx-a11y
     'jsx-a11y/click-events-have-key-events': 0,

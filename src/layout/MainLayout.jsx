@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Count from './Count';
 import Locales from './Locales';
 import Welcome from './Welcome';
 
@@ -10,6 +11,7 @@ const MainLayout = () => (
     <i className="if if-logo" />
     <Locales />
     <Welcome />
+    <Count />
   </div>
 );
 

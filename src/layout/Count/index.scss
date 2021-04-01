@@ -1,0 +1,21 @@
+.count {
+  p {
+    font-size: 24px;
+  }
+
+  .count-button-group {
+    margin-top: 6px;
+
+    button {
+      width: 40px;
+      height: 24px;
+      background-color: #eee;
+      outline: none;
+      cursor: pointer;
+
+      &:first-child {
+        margin-right: 18px;
+      }
+    }
+  }
+}
