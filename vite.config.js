@@ -34,7 +34,9 @@ export default {
       }
     }
   },
-
+  optimizeDeps: {
+    exclude: ['config', 'mock', 'fiddler', 'tests', 'src']
+  },
   plugins: [
     reactRefresh(),
     eslintPlugin({
