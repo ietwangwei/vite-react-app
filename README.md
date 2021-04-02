@@ -1,12 +1,40 @@
-# <p align=center>Vite + React + Recoil + React-Router</p>
+# <p align=center>Vite2 + React + React-Router+ Recoil + Scss</p>
 
 <div align=center><img src="https://vitejs.dev/logo.svg"/></div>
 
-A simple React Application boilerplate be created by vite.
+A simple React Application boilerplate be created by vite2.
 
-# Features
+# Directory Organization
 
-## Vite
+The following is the main code directory arrangement.
+
+```
+.
+├── config          // 配置相关的文件(https等)
+├── fiddler         // REST Client 用到的文件
+├── mock            // 模拟数据
+├── public          // favicon 等静态资源文件
+├── src
+│   ├── apis        // 调用 api 接口方法
+│   ├── assets      // svg 图标和 iconfont 文件
+│   │── components  // 公共组件
+│   ├── constants   // 常量
+│   ├── hooks       // react hooks 函数
+│   ├── layout      // 布局组件
+│   ├── locales     // 国际化
+│   ├── pages       // 业务组件
+│   ├── routes      // 路由
+│   ├── stores      // 状态管理
+│   ├── styles      // 公共样式
+│   └── utils       // 工具相关的方法
+└──tests            // 单元测试
+```
+
+# Format Utils
+
+Good formatting tools can standardize code specifications.
+
+## Vite2
 
 Next Generation Frontend Tooling
 
