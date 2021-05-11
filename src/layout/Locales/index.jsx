@@ -1,7 +1,7 @@
 import React from 'react';
 import Cookie from 'js-cookie';
 
-import './index.scss';
+import styles from './index.module.scss';
 
 const Locales = () => {
   const handleSwitchLang = event => {
@@ -12,7 +12,7 @@ const Locales = () => {
   };
 
   return (
-    <div className="locales">
+    <div className={styles.locales}>
       <span data-lang="zh_CN" onClick={handleSwitchLang}>
         简体中文
       </span>
