@@ -30,7 +30,7 @@ export default {
   css: {
     preprocessorOptions: {
       scss: {
-        additionalData: fs.readFileSync('./src/styles/colors.scss')
+        additionalData: fs.readFileSync('./src/styles/_themes.scss')
       }
     }
   },

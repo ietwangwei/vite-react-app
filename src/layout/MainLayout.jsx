@@ -2,6 +2,7 @@ import React from 'react';
 
 import Count from './Count';
 import Locales from './Locales';
+import ThemeSet from './theme';
 import Welcome from './Welcome';
 
 import './index.scss';
@@ -12,6 +13,7 @@ const MainLayout = () => (
     <Locales />
     <Welcome />
     <Count />
+    <ThemeSet />
   </div>
 );
 

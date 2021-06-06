@@ -7,6 +7,7 @@ import App from './App.jsx';
 
 import 'styles/main.scss';
 import './assets/fonts/if.scss';
+import 'antd/dist/antd.css';
 
 const rootEl = document.createElement('div');
 rootEl.id = 'root';

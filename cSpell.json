@@ -2,6 +2,7 @@
   "version": "0.1",
   "language": "en",
   "words": [
+    "antd",
     "arrowParens",
     "camelcase",
     "clsx",
@@ -17,6 +18,8 @@
     "svgtofont",
     "vendored",
     "vite",
-    "vitejs"
-  ]
+    "vitejs",
+    "themeify"
+  ],
+  "ignorePaths": ["package.json", "package-lock.json"]
 }

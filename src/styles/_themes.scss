@@ -1,0 +1,77 @@
+// 定义每套主题的样式
+$themes: (
+  light: (
+    // font color
+    font_color1: green,
+    font_color2: #fff,
+    // background color
+    bg_color1: #fff,
+    bg_color2: #f0f2f5,
+    // border color
+    border_color1: #3d414a
+  ),
+  dark: (
+    // font color
+    font_color1: #a7a7a7,
+    font_color2: #fff,
+    // background color
+    bg_color1: #1b2531,
+    bg_color2: #283142,
+    // border color
+    border_color1: #3d414a
+  )
+);
+
+@mixin themeify {
+  @each $theme-name, $theme-map in $themes {
+    /*
+      !global 帮助我们改变一个局部变量的作用范围。eg.
+
+      @mixin button-style {
+          $btn-bg-color: lightblue !global;
+          color: $btn-bg-color;
+      }
+
+      button {
+          @include button-style;
+      }
+
+      .wrap {
+          background: $btn-bg-color;
+      }
+
+    */
+    $theme-map: $theme-map !global;
+
+    // & 代表父元素
+    [data-theme='#{$theme-name}'] & {
+      @content;
+    }
+  }
+}
+
+// 声明一个根据 $key 获取颜色的方法
+@function themed($key) {
+  @return map-get($theme-map, $key);
+}
+
+// 获取字体颜色
+@mixin font_color($color) {
+  @include themeify {
+    color: themed($color) !important;
+  }
+}
+
+// 获取背景颜色
+@mixin bg_color($color) {
+  @include themeify {
+    color: themed($color) !important;
+  }
+}
+
+// 获取边框颜色
+@mixin border_color($color) {
+  @include themeify {
+    border-color: themed($color) !important;
+  }
+}

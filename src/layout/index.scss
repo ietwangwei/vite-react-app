@@ -3,8 +3,8 @@
 .main-layout {
   flex: 1;
   flex-direction: column;
-  color: $green;
 
+  @include font_color('font_color1');
   @include displayFlex();
 
   .if-logo {
