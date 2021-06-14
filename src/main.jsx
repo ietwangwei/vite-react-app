@@ -12,7 +12,9 @@ const rootEl = document.createElement('div');
 rootEl.id = 'root';
 document.body.insertBefore(rootEl, document.body.childNodes[0]);
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(rootEl);
+
+root.render(
   <StrictMode>
     <App />
   </StrictMode>,

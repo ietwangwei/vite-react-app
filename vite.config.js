@@ -40,8 +40,8 @@ export default {
   plugins: [
     reactRefresh(),
     eslintPlugin({
-      include: 'src/**/*.+(js|jsx)',
-      fix: true
+      include: 'src/**/*.+(js|jsx)'
+      // fix: true
     }),
     viteMockServe({
       supportTs: false,
